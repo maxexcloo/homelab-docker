@@ -35,15 +35,6 @@ enabled = true
 passkey = "D72vmZpmdLTvYCpQS3R0X2n6ROgTozrw"
 region = "au"
 [[server]]
-description = "Malatang (AU)"
-name = "au-malatang"
-
-[server.config]
-address = "https://malatang.au.excloo.dev:8120"
-enabled = true
-passkey = "cZIfbvkT1GqnG3hdJtyOIDhyvZ28wX6p"
-region = "au"
-[[server]]
 description = "TrueNAS (AU)"
 name = "au-truenas"
 
