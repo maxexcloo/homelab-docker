@@ -1,34 +1,35 @@
 services:
     openspeedtest:
         environment:
-            CHANGE_CONTAINER_PORTS: ENC[AES256_GCM,data:wmrcVg==,iv:xUlxF/VXdwjfHnMocNPgaLNWOuY+7yi0zpaukKVPEWg=,tag:Lg/UaSlHC2kg3xXiO/LiVg==,type:str]
-            HTTP_PORT: ENC[AES256_GCM,data:rKOdmas=,iv:KQobLz0jZnzg9GXvhp9b1vGO92ltJxiy7aIP1RZ74Wo=,tag:PimpPUAlxQnxvtvKZD8k+w==,type:int]
-        image: ENC[AES256_GCM,data:d9mtjKcOF3mFd2iQGwUXfA/WHc8/o7pn0X4f,iv:vNkepTaxVuXE7Sc0SBF2k84hOLB2wb+P/LHxethUYHM=,tag:Bb0Ur00YQZ3/IXIDpHTgIA==,type:str]
+            CHANGE_CONTAINER_PORTS: ENC[AES256_GCM,data:v94kBw==,iv:qkA9caPPdvUvJI8frjMIB6lo84BtOLQjWOjJ3Tq+X4E=,tag:2xCLn/xB3Dof4LY0sJq4hQ==,type:str]
+            HTTP_PORT: ENC[AES256_GCM,data:nPxMOYg=,iv:jSmyHXKoE1nVBgkIAAqoku6e3NjloUaLuN+GqapRxy4=,tag:7miGLAepwtg2crKwvDDh1A==,type:int]
+        image: ENC[AES256_GCM,data:WEOLWyqhYc1WC9PIR174cdC0G33MUOYID29e,iv:3CSbnfVNJLzE+/sP6B02Goujos5mr42MpTc4Y4vZHh8=,tag:oTArIlE+HAcvEymwRB1gTQ==,type:str]
         labels:
-            traefik.enable: ENC[AES256_GCM,data:CpZS/g==,iv:hDDOBGKVjja7IkRXRVS4D+SEiz2TN3Stbf9f/UM7kzY=,tag:uGC0XGf2PiuI5F6+5aqnfg==,type:str]
-            traefik.http.routers.openspeedtest-http.entrypoints: ENC[AES256_GCM,data:HLGq,iv:7iqQ4AF8doU8eDVCsEykLixv/pKfdaTlF1kIkzCP8F0=,tag:zPC5ilYECONeUbmijL/NyQ==,type:str]
-            traefik.http.routers.openspeedtest-http.middlewares: ENC[AES256_GCM,data:s6rmM/3ytbQ/nSxelKggpq52/oeTAW4TnJKTPzkaqXHJcpt6b68iF4AbPIKX,iv:ckBM4iJX6VbA8+BZSZC6TA8b5K+huzVStzD7L6eUKqc=,tag:pLZk/YLPrsWwsIvTm99AHw==,type:str]
-            traefik.http.routers.openspeedtest-http.rule: ENC[AES256_GCM,data:u1CL/k3KlkFtmAmIcOaBwzubfMfMv2YBNFIXxicjFHEb3cFTNI2w,iv:d5zZdhc/p0KgQPsOBDDOFbcy+0ONxWHzI30toFBoK9M=,tag:h3X2pnPdPB12eGEjqpovPA==,type:str]
-            traefik.http.routers.openspeedtest-http.service: ENC[AES256_GCM,data:OXXljVJhuW5Uo7VMiA==,iv:eDQLaCY9c7lrKcQf+YFu1ekQvHn/norgweLN/dEDBHc=,tag:lfGv/T+M5vVBdVR5xWAUFw==,type:str]
-            traefik.http.routers.openspeedtest.entrypoints: ENC[AES256_GCM,data:he2TeskymhMb,iv:/5ErAhWdJio35ibspYNSrHPQzep4A/DcmcAWqyu748c=,tag:4idEa5OA+Tv3Z22U/n78gA==,type:str]
-            traefik.http.routers.openspeedtest.middlewares: ENC[AES256_GCM,data:uehTxI/dDyicZekn98lCiuuUzug=,iv:2z82f5LYucoS2P8+EZ3Vw+o/L0sn0Gj6vCLWh0J4sv0=,tag:sfF9NNxh6dgd1MKCEckzfQ==,type:str]
-            traefik.http.routers.openspeedtest.rule: ENC[AES256_GCM,data:GmH4GYhS0MLKIOUk53+uQz0YZHm7G3jpAgOl5BYKRwj9KsZKXmoi,iv:tKGh0UuXr3vWn5VH85/N/IHRZHtvXQN1CAILsQ12XQw=,tag:fMl6JqTPCgAR2hxXGd68Ug==,type:str]
-            traefik.http.routers.openspeedtest.service: ENC[AES256_GCM,data:ya7lM6p42FCsxomhsA==,iv:JDwcAcxl+Er4F5zhTdqpnw37I1rA2NG1TFKmvIORTM0=,tag:zqtKIUb4eIiFgZQu6+e7TA==,type:str]
-            traefik.http.routers.openspeedtest.tls.certresolver: ENC[AES256_GCM,data:mTlvruLF94tHaQ==,iv:A0UMROY9FDGUIu9K0J2xv9mACDNySms3G+b8o78vN6M=,tag:QRNRu38tt1r5T+it/0wJfw==,type:str]
-            traefik.http.services.openspeedtest.loadbalancer.server.port: ENC[AES256_GCM,data:dp0y2cw=,iv:1VtZX+9ccYUTingRInWrCdKWxigeWWL3aC3lcZEqYLM=,tag:5ec92zZfKep7xM0dQFGlQQ==,type:str]
-        restart: ENC[AES256_GCM,data:bc801krWS49r8bN2oi4=,iv:s3EHMjZHNyHgjcJP8ikzUAFbjy9ZQz2D9xdTMjEzJS4=,tag:x74cLZF3f7HyJmPP+KDt+w==,type:str]
+            traefik.enable: ENC[AES256_GCM,data:rXrj1g==,iv:nxxkeHs8xKNcwa0zSwTSW1S94nPSt26lSSdDbBoS1Fs=,tag:79fp05Ia3/+xvUNh0ae8ig==,type:str]
+            traefik.http.middlewares.openspeedtest-buffering.buffering.maxrequestbodybytes: ENC[AES256_GCM,data:G08vZGan5Z4=,iv:0Wz5fqnRqMtY8rYqgwuOAMn+lEBbArNVtJejOxFhQe8=,tag:WNQvYvxhFj7i11Ec5tLZEA==,type:str]
+            traefik.http.routers.openspeedtest-http.entrypoints: ENC[AES256_GCM,data:QyVG,iv:rFELeuYyDmmCoTnw+v28UdnSqyjj2qM8ftfmjCOR2nw=,tag:Q9xssvXFeaTPdnoAHKViww==,type:str]
+            traefik.http.routers.openspeedtest-http.middlewares: ENC[AES256_GCM,data:pPGy+wiSmDd85Ju1NOI4og4jcBW57lirPHpwcULabblIaBeRkzD/kRn79z0i,iv:9dQ71wZHTCqwh6UaecBANYCuPU365DTCAmwwbIpAeoo=,tag:CF9SiyUhxnjPDvVdR76aPA==,type:str]
+            traefik.http.routers.openspeedtest-http.rule: ENC[AES256_GCM,data:j3mD0izUaBuVd8M3v/5oyvv+5HHU8/t129/TasQS3j+vn0griHv5,iv:Vt8D7Yfl3POweE8BrRpXbcwKBoXriqyjsq26Vl2Rnlg=,tag:e8oiaEg7k19tKygDcYt2AQ==,type:str]
+            traefik.http.routers.openspeedtest-http.service: ENC[AES256_GCM,data:VwQEyrkazGbptkNkxg==,iv:ZEj9t6a1SB672S/zWx3c2FD2xTcP9YCvZ/KCvyptSaY=,tag:qD4Zr2536XQfFhH/kGyRLQ==,type:str]
+            traefik.http.routers.openspeedtest.entrypoints: ENC[AES256_GCM,data:OBEMALlZWeZs,iv:5Rq0qf+ywwy8J6btIRFyUGD+kLoL7KvrXZJkYFoSqtw=,tag:eOzsN8x3IEDaNYF+OTh/EA==,type:str]
+            traefik.http.routers.openspeedtest.middlewares: ENC[AES256_GCM,data:D8ErHHIfD4KB/BN8wYlDXDcRTqIS5hPO2nzLnzDTVTcdnvf3WIEc0/vuux71QalwYJA1,iv:WzzkgeVb5xtdZbl1raZbye86d9f5A+gjMpDmxyEELq8=,tag:iiX39Bt/X1e/tTRdjlF3LA==,type:str]
+            traefik.http.routers.openspeedtest.rule: ENC[AES256_GCM,data:L+iZpTdSlDWLtkewHxGy82MFLjgYUrrGGxzF80esCntfiNfhD3VS,iv:HfcGLeFulB9W9Pn1u7BZXebyKnij3Z7BoWehVddsnWY=,tag:y1zzlE3z55bX9dDJZbMKmQ==,type:str]
+            traefik.http.routers.openspeedtest.service: ENC[AES256_GCM,data:7biiYcyCoE33LSIayA==,iv:Oy52CGtnOXlvNkldMTIJZp7PT/iao0khR2sxkhqa+VI=,tag:vIdrppGh3JJFFgHfjDG5ww==,type:str]
+            traefik.http.routers.openspeedtest.tls.certresolver: ENC[AES256_GCM,data:uDpi16n7tJUOtA==,iv:QD4MrEphc7m3X6xiR0BU9jm4pMgz+f/XyT+y5uEEQM8=,tag:MeuTDo5sTrK1cQGFs2NDWQ==,type:str]
+            traefik.http.services.openspeedtest.loadbalancer.server.port: ENC[AES256_GCM,data:mF3/xMw=,iv:RSt0gL6369z3UtZzrMa6gatdtqxwNv4WW6bYaSY69fo=,tag:eN/M/jfRsMXyx6IqCS7dPA==,type:str]
+        restart: ENC[AES256_GCM,data:y+dRdsWqerWWxkfBAdI=,iv:67zFunoyQOCiA4VQnz5D/fqKc4lh9HNEVISx+TtTbFY=,tag:XcENR13Y7s7ABlu03hrmwA==,type:str]
 sops:
     age:
         - enc: |
             -----BEGIN AGE ENCRYPTED FILE-----
-            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBoc29uRjdUQkt3T0FwQkxW
-            UkFHMjFkTFdtZEZoRzVGb0tJd0ZOZnlYNFhzCkpidmpMMk83alBDdElvVWxaYkJU
-            MEdxQjVxR0Z0VG9vTUluTk1saHdMQjQKLS0tIDErMC9sY2FQY3dWbStjM29sdERy
-            ZHZSUFhYTDFpM0FvYkdzZFdzeEpndTgK4tS8QWUz19YGT0aFLEonOBCTqUMlp0qM
-            y1UindR0oozttkdRuRp5O92FZkVcuPlWOJKaEhTUV/RJvxk/QeuTiQ==
+            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBYSk8wR01SVG5wTURlVTJh
+            MER5VGVRQzY4a3FWOWZ6UGVPYmE3S3UwZ0ZFCmxteFRFT3RrenZFUzFqUHVuSUJr
+            VjJCMDhTUzNqU3d1Wmg4YllMaWR4SG8KLS0tIGgwUzlKM29rSytRQkJnZk5xMnlT
+            T29LcG96NGRuYUVwZHZDUHJabXh4MlkKiu9WIxRAus1NHX8dapA6BPUd/QPfzbAu
+            M73fstnjACpDhWL01IjLp7dkOzusKHzCX1NHsUiOMcP5zNjr3SN17A==
             -----END AGE ENCRYPTED FILE-----
           recipient: age1heqmzgcj5d2fe7c96leq9kqm6vc4mqhpn94d685q3px9utzlq98q2tv268
-    lastmodified: "2026-07-19T02:07:13Z"
-    mac: ENC[AES256_GCM,data:WUcsxd7M5T2DDftRhM/FUzJsTw4muM4PeDd13tWCinGiIYeyeje1TKoK7r96tdcnAQoxX31kGFExb1H8rFPIBrDVUyVlVLJH+wHHlyOYoP1xW8WxWV8p2lY+kfubKPdxEHWfB+Ru8/eX822f678DDAABpo/gH64vT3bj6fWn/k4=,iv:c9WCEC/b9IvoHIXyeaBKgQlQsWyimf6jf36KhC9ZG4Q=,tag:iR3ONGmup88fkdFHeugP5A==,type:str]
+    lastmodified: "2026-07-19T10:27:29Z"
+    mac: ENC[AES256_GCM,data:coxHNfxlbOdSLATGJ5IDYCdqEp/1AetnqhRiIYxk/merOOMOkGa2RQLFApeArmWapqKdCZw7ZvWQGvGGGKS8rWreI60mhwRlffld1nFFFADlg2BBVJRiYMCBpxc/7gluOCHyWPsj97l97+YjtgAeN9pdhJnNQBanvkoVzAzZWeg=,iv:KYU9Cszv1tewUz+vlRRHgrp+QN+2EcJ6y1c+T978SKg=,tag:P4i4IUxBdc5l46+A3G2zbQ==,type:str]
     unencrypted_suffix: _unencrypted
     version: 3.13.1
