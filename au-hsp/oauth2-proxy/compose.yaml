@@ -1,75 +1,75 @@
 services:
     oauth2-proxy:
         command:
-            - ENC[AES256_GCM,data:zISOa/UIXLIw7uRdVX7nIPOuxtsx1a1eZMdpUEwpp03gBoKutinfKznJVe2fuBg=,iv:wlddX3QEBP6cQvKbMT6rv8bBmtE9FqC8uHbQQkTgAUI=,tag:3sinCkt2TogM9J3VOTJn6Q==,type:str]
+            - ENC[AES256_GCM,data:IoZZLy25Pn1NC2PmNdtfsfKSO3x15Lvcz8xrjZ3Z5Gco/EbBPDCBIYYwIMw69WE=,iv:UtJET1ZTiOqkFWnV7lvtKp6GEkFPaUnYOOkXo0ST0Cc=,tag:3s0C9sdElejQc0Dg10Mfhw==,type:str]
         entrypoint:
-            - ENC[AES256_GCM,data:s7ddo3PQzw==,iv:9gdsnS9cYSVlrW9LfqXGCzi8tY0XVuJX/EyCA6RMdig=,tag:5TMb+tTWiKF3wVjft7CmLQ==,type:str]
-            - ENC[AES256_GCM,data:5hE=,iv:vD7Oj/UyS1/KfISx8dgAdj8/UMMEYRFLvki7EpWG8Yk=,tag:ZZPqgLlf6S3jktRGxoo61w==,type:str]
+            - ENC[AES256_GCM,data:QTQmrfjhOg==,iv:TTUnN8Byl3Vdirj1wIdKb6Ebr53q4GCq8iSyJXOPKJc=,tag:o2S0soCYwEsDqxFFJEuTeg==,type:str]
+            - ENC[AES256_GCM,data:rQQ=,iv:4Rby/f5vAExiN/olp9/+twCKhI1W5/H8WoThO9UWIUA=,tag:yVO8cDBTnz2tpqTDR9Bufg==,type:str]
         environment:
-            OAUTH2_PROXY_CLIENT_ID: ENC[AES256_GCM,data:d9A2ujsKIJA03tk=,iv:zbJb4b+ixlcBnAp9yXLc/0Axs3YJ4chcb1E6m1oxjLQ=,tag:VA4Rr5RpSmEBNLBKjkZm2g==,type:str]
-            OAUTH2_PROXY_CLIENT_SECRET: ENC[AES256_GCM,data:RBXlOiNXyus2udTk/Nx6q1dgAl1oWI2TuWthRdYavMo=,iv:cOPhF9Tz1NVA6gyDZ6OI4DfLGHsJnmSUAodbzlJYubg=,tag:NrBtFiHZN2KWpV9e/uvbTQ==,type:str]
-            OAUTH2_PROXY_CODE_CHALLENGE_METHOD: ENC[AES256_GCM,data:ytMGig==,iv:y0E8cHNan4HGWkVK0zPejfMhk2ox9naROPw4xKADjvM=,tag:ykyPLEpl7R3LFwXR/sNVHg==,type:str]
-            OAUTH2_PROXY_COOKIE_DOMAINS: ENC[AES256_GCM,data:+/uFpM5MXLbIyfrLmCo0HKM0,iv:aHPW/+3CF7xpiPvGAS5rQnh7I736dXgrR8P9Z+6dE6o=,tag:W62HurAL/HysmEJ/3NSNhA==,type:str]
-            OAUTH2_PROXY_COOKIE_SAMESITE: ENC[AES256_GCM,data:2FBW,iv:LltB65v7d93vYDdzgnE+Mqf9/HDIG8CqaUm/GdVFXH0=,tag:nikNtp5EHqKaAmDhUsMEDA==,type:str]
-            OAUTH2_PROXY_COOKIE_SECRET: ENC[AES256_GCM,data:TbwO0M6iX8GDVaSrpwjNdDsqGYEu+pJ76vb426RyjLqObAoHeiE/aIpKJo4=,iv:FImG2yYW23XKH43xaef3ueO/cGWPGIYga3R3nTAiv5Q=,tag:e2Ezeieqf2JL+SDh17uUFQ==,type:str]
-            OAUTH2_PROXY_COOKIE_SECURE: ENC[AES256_GCM,data:zJ4bXQ==,iv:n/Rue/HawkZLJcMnlN+3o0PhK2dE/s38zfRor/KhJqY=,tag:EUqJs4SO/HL8gfy8IBut3Q==,type:str]
-            OAUTH2_PROXY_EMAIL_DOMAINS: ENC[AES256_GCM,data:Og==,iv:0pVhsojzAYLVo2ftSeXnipt+8nEhcGES78GGJOJWhn4=,tag:WepZRzGMzJdIK35VCXuUwA==,type:str]
-            OAUTH2_PROXY_HTTP_ADDRESS: ENC[AES256_GCM,data:QZVWTa6FWOp3ugUC,iv:LiOWCH4x6LRbK/l9vw8N107vFFSUtQheveCAoK4ssIQ=,tag:Y5JW+nnu99waABtvR54Dsg==,type:str]
-            OAUTH2_PROXY_INSECURE_OIDC_ALLOW_UNVERIFIED_EMAIL: ENC[AES256_GCM,data:wQrdSQ4=,iv:cmWmmNXpqg0bOi/lUBFTD0mBHUvtjw22tVWr81SP/zQ=,tag:tvBBN5XRsy+bNW799mR0tA==,type:str]
-            OAUTH2_PROXY_OIDC_ISSUER_URL: ENC[AES256_GCM,data:nPd35+a1vypehIcDqP9P2tGXM9bm,iv:b5yFMRlRDd9zYk08vQJ+rPuvCcFWAYp61+6gp60Mi1o=,tag:otjSzxLnQIMUybaDvXY6dA==,type:str]
-            OAUTH2_PROXY_PASS_USER_HEADERS: ENC[AES256_GCM,data:ui1HDw==,iv:joXaLXzH2gV24e2CZoWq7BTI+Of+9DaRjXN0vYWJ5vQ=,tag:BUAmdi0904SVQVechA9SxA==,type:str]
-            OAUTH2_PROXY_PROVIDER: ENC[AES256_GCM,data:DWgQlg==,iv:LyrT1YxPIeWFIMSdNrGrL167vaC/27ppn8PfJ4qpk3g=,tag:QYGBW8QNmvAYXIGamDC/dQ==,type:str]
-            OAUTH2_PROXY_PROVIDER_DISPLAY_NAME: ENC[AES256_GCM,data:kckDZOeQhbkY,iv:v9WvGthMvWqObrJzlb6jgHJ9a8H3wnS6tlwyLAwbBqM=,tag:pJuRr/ErPVUxNjPsuHmEvw==,type:str]
-            OAUTH2_PROXY_REDIRECT_URL: ENC[AES256_GCM,data:J+ru3JgmR4GU2NIVzcbgY4UwY+RO/efOaZrxwYcDozyCd/mtNK3BKSanwrcVN085sByJ/e0e,iv:8jWY8fXUS40Q45VtHkl7eFMzyAjpn4z1uhSt1+EzrtM=,tag:PAiVYZFgcBYze0dO20DIxw==,type:str]
-            OAUTH2_PROXY_REVERSE_PROXY: ENC[AES256_GCM,data:n+66fg==,iv:38M8nbWNKxrkbaX5lxawxaGUc7tj6khzLtB1+1KpG6g=,tag:g8IosHjfEYnsIhtL+ZgWxw==,type:str]
-            OAUTH2_PROXY_SET_XAUTHREQUEST: ENC[AES256_GCM,data:vhxDog==,iv:NiPK8CXKV7NDSEABGUzha7OHAmsswVWbbsvUdHAuNeE=,tag:B809jW+XDlMnEB7bYbFvmQ==,type:str]
-            OAUTH2_PROXY_SILENCE_PING_LOGGING: ENC[AES256_GCM,data:6EITlA==,iv:KftuLpcSy/ZhqJl+M91dawrganY/klrd7ypNJmEmdeM=,tag:xx+rp7EIvBkU4SYPebQ0LA==,type:str]
-            OAUTH2_PROXY_SKIP_PROVIDER_BUTTON: ENC[AES256_GCM,data:6EJGoA==,iv:qvRKtHkY8uq9cG/Xr+gxcr510Afj7POSmyZHtsnelRA=,tag:55au5/y/GxpO15YIEDgCrg==,type:str]
-            OAUTH2_PROXY_TRUSTED_PROXY_IPS: ENC[AES256_GCM,data:2jL5f7uv9b6qEc2fjJTZhjyGabVVFM0vFOfW448AuYAKhCvsZovY5z2YG9KIUJCVPJTNqQ==,iv:M8aQabz3Ki+fdy9crQmkwcLtgOmrUmh3W63MZOGZmGs=,tag:Mvr9QGsAmQ4ZI3XjcbyS9Q==,type:str]
-            OAUTH2_PROXY_UPSTREAMS: ENC[AES256_GCM,data:g0G16gcrHvVy5tJL,iv:cHcAYJIxlm/p/FwF6fzay5+nOw2L1pJdQ/BmtU5od30=,tag:Yb9vm+LBzvcCADzZt0M01A==,type:str]
-            OAUTH2_PROXY_WHITELIST_DOMAINS: ENC[AES256_GCM,data:oX2zXl6Ls0KN7VFF4Nq7o65Y,iv:vxLM1+iLQ2KNoLI2ajqddOSPZEBv82YhesCLVcRcq44=,tag:mOJjaMnq9XyjzeILaUXoQA==,type:str]
+            OAUTH2_PROXY_CLIENT_ID: ENC[AES256_GCM,data:Z6OUCJ/U5a6mWdY=,iv:Nr45q4JjI/QLyQNgR/RE/tRIKik4ybQEOUY3yYIss1M=,tag:bDTxvRShF7oLIgzMYqE4Tw==,type:str]
+            OAUTH2_PROXY_CLIENT_SECRET: ENC[AES256_GCM,data:SVACR/LdeyunrNh7MGMVPcLEEkP0fQBRRYusrQQwINE=,iv:WlmHSF/snX3PmIwcVsKYHB5XfpY4ppZg+MhSPYBP4XA=,tag:/w35a+NDnRK2zQGSPPickQ==,type:str]
+            OAUTH2_PROXY_CODE_CHALLENGE_METHOD: ENC[AES256_GCM,data:j8871g==,iv:odcce79a6gzVQFZKVL4St0U36/xjxnBs76rl+6AxokE=,tag:ttNcgW5pOiESGlD5BBRDTg==,type:str]
+            OAUTH2_PROXY_COOKIE_DOMAINS: ENC[AES256_GCM,data:ZWerGjIK6sx0K+Md6Cp03HuK,iv:513xFdtUT0RxqA698qdSosHheaM+CBlIOjGc2R1obc0=,tag:/EkwnmjTggUphHs9DY0a5Q==,type:str]
+            OAUTH2_PROXY_COOKIE_SAMESITE: ENC[AES256_GCM,data:r/Rs,iv:ziGuJC8YhaBWlcencLJv7bm3yV2speeYVHNCGbsw8Hc=,tag:cVVQQFKSUS76DJZvl90zRw==,type:str]
+            OAUTH2_PROXY_COOKIE_SECRET: ENC[AES256_GCM,data:/UToaUHrQv3OHxRHzpC/3n44I+EaDxSBH40HJkLo9Og=,iv:DTuklxn7Ge6DQ98YrcSqeVs05OjhP4RBlhuVG1EzNtA=,tag:HUlFKXaRx1FZBwtATSFHXA==,type:str]
+            OAUTH2_PROXY_COOKIE_SECURE: ENC[AES256_GCM,data:VuFSaQ==,iv:VU/oOge0FBtGtq61pjw1KPbIGtaCDklhV42xE8Xam7o=,tag:O6b24qPWBXH6N2xnWElaiw==,type:str]
+            OAUTH2_PROXY_EMAIL_DOMAINS: ENC[AES256_GCM,data:Hw==,iv:8J2PZsc27drOeQT8OJ6lhjHbqgKXIcLleVFhRg4NIlQ=,tag:7CLzlGXpeRM03dpR+fIVOA==,type:str]
+            OAUTH2_PROXY_HTTP_ADDRESS: ENC[AES256_GCM,data:NQSRPXq4d0ooyv75,iv:vzwFVv8nEdbB3eN5bMAl2TQy7gqznp0rvmEZMKFABqM=,tag:+QICRzB7U80yMMP13SG7Bg==,type:str]
+            OAUTH2_PROXY_INSECURE_OIDC_ALLOW_UNVERIFIED_EMAIL: ENC[AES256_GCM,data:gwRDpmc=,iv:7zGC46M70naGA7tCqTFHSx7byij2BcZgGGYBWiHF+gI=,tag:k8HFwiqZ6S85DTtOS+PT5g==,type:str]
+            OAUTH2_PROXY_OIDC_ISSUER_URL: ENC[AES256_GCM,data:ORKAiDIRU3nMQXdcqHzmBprOUc9H,iv:teKVRbrt7q+qdllorBj2zIaSpFa+kz4zSCBuBjsguC8=,tag:qUwKCCNjMlHn02GzlIV+dg==,type:str]
+            OAUTH2_PROXY_PASS_USER_HEADERS: ENC[AES256_GCM,data:OO3Hbw==,iv:Gn8vo7osba5QmkzPwfhR4+iExDDWANFFLcE2habFvik=,tag:N4T9ZkAVvjqlPeNXbYyUkQ==,type:str]
+            OAUTH2_PROXY_PROVIDER: ENC[AES256_GCM,data:xCJ/qA==,iv:CIjaLDU3FaQsKYL/WTSDlIrYzC9ep/qLMdgwYy+NDGc=,tag:dUA0jONmiv6maPK5oZiLAQ==,type:str]
+            OAUTH2_PROXY_PROVIDER_DISPLAY_NAME: ENC[AES256_GCM,data:K9lS0e1Sauim,iv:CcoEUtvxBrDfj2u90ZC5s6dSyi3HpfKAUlV9P5iAEpg=,tag:2Hx7Cr7xIkCf3NShsDlgyQ==,type:str]
+            OAUTH2_PROXY_REDIRECT_URL: ENC[AES256_GCM,data:jnzoWME3CCdgoaP+8CFXhLxUakdOMySlZ88Pqyd8v1WaWOhGhUm5pcZEGgU89WYK6yPM5O9f,iv:RNPVT75tanL0Q6XD5LRQgUSJmdeICDvSaOu2qWujtPA=,tag:twvFmNjPT8ZSwwbJeXjAGA==,type:str]
+            OAUTH2_PROXY_REVERSE_PROXY: ENC[AES256_GCM,data:6FF0Cg==,iv:qUz8QiC3wj1jpzaUA07UO3yceQ+FkzEPCzTUKjN7iA0=,tag:jSM9fy9oRFJziS8GXMJ1YQ==,type:str]
+            OAUTH2_PROXY_SET_XAUTHREQUEST: ENC[AES256_GCM,data:umgftA==,iv:DaVoWZjQMm+bAu+TZkUp2bkbClOEJJA4Q32UZ6Do3ec=,tag:XZrlUZfkZrPWaRvt6Z4z3Q==,type:str]
+            OAUTH2_PROXY_SILENCE_PING_LOGGING: ENC[AES256_GCM,data:YWkwNQ==,iv:NfVz6+DZeaM/YQFCioJDdn04C8yUJLE9ggGsB2IMKPI=,tag:9sfGoTkftdwREXaJLI6uRg==,type:str]
+            OAUTH2_PROXY_SKIP_PROVIDER_BUTTON: ENC[AES256_GCM,data:Wg+2Og==,iv:SZ/0OVfnfHVswJW75fLmfkXPeYHARkOmuEa4Buizisk=,tag:DqSiho/WVufAHAd3f4tMqA==,type:str]
+            OAUTH2_PROXY_TRUSTED_PROXY_IPS: ENC[AES256_GCM,data:m79wQ/hOZj6u9YyRT4QLWPnyUqR4EHPwLotiacxeZCpy21pW83+7YNzgc1x8qwJDOoUjhw==,iv:SP1uaGW0DdqLFD0kRQem6neOlu36wUlJoDxQR85f6Og=,tag:MFX2bYMO1YsGJd3oamJ+4g==,type:str]
+            OAUTH2_PROXY_UPSTREAMS: ENC[AES256_GCM,data:dVBQYCRXEj2ef7bF,iv:KXfPRFnF6DjwoKesM2DllnW4E3aUcHgIxslbkqWdv2U=,tag:QLN4j6ub3YzHBnwCVo5rpw==,type:str]
+            OAUTH2_PROXY_WHITELIST_DOMAINS: ENC[AES256_GCM,data:oMLIEFUi3JSL87wn3wiSwfw6,iv:S7M5HEXJ+niZ9pKHsAkI7VaCMozm/kkbGgHT6O1E+kY=,tag:VJNz2ckjiAmNgm86KlykVw==,type:str]
         healthcheck:
-            interval: ENC[AES256_GCM,data:tZY0,iv:xGV8TOxoYhIqaf16JaHW5qxCHkMQzhzGFuBQGAJhyyI=,tag:ZmP8V0mJWGEI7lSEwk6sNA==,type:str]
-            retries: ENC[AES256_GCM,data:SQ==,iv:fQwm3ufLcNh70Rcl5ufM8SmibV8eeNkHXwfGRn7YDgc=,tag:Flvlj0yI/Tj5dgVlIsnFfA==,type:int]
-            start_period: ENC[AES256_GCM,data:Pt4+,iv:Sz/yeyLvvIXo3pwrTgQRhukbyzoTj+nOur2l7y1/Nvo=,tag:Rg0XNCPX08kEXs22e3+Sgw==,type:str]
+            interval: ENC[AES256_GCM,data:4xk4,iv:D4JmJ5bmOOiSW56+OJvL7lj197pEcEcQVwuDplAUjcI=,tag:rK0iU/bT/gbzYFqZFX9gGw==,type:str]
+            retries: ENC[AES256_GCM,data:ug==,iv:CDF7eDCurku6XOnaqhWU7rA5EmIP1zF0sVK1v0M002o=,tag:TZ5w006Drw/pv0hUrRE/vA==,type:int]
+            start_period: ENC[AES256_GCM,data:nRJ6,iv:rDnzgG/3qQLCa+G5hKSUgRRvOxyE5W3lo6bbcEpAgyQ=,tag:H7fga18yAwVmEjK0G3gF7w==,type:str]
             test:
-                - ENC[AES256_GCM,data:k998O1yX/V2V,iv:Ol0Q161w/a4A5NzDKngbUomf6fbzLSikqtAtlFf2Z8w=,tag:YF8nESlNRM6RwZClAIl29Q==,type:str]
-                - ENC[AES256_GCM,data:q7Vk5v0CLvJz8RKKMzJCyy0FhkuvtAQWYFoHkgiP90/eodQDFdEM1XKYylkqpMk7/B7qoNPujk5k/yLGPcViRex8dQcEhah+tHE=,iv:NZpShEumkhqvMPn9pgbYrsvguYF0DVFsieVSXld8WAY=,tag:kMwN8I8TNdNBmySHBkZtiQ==,type:str]
-            timeout: ENC[AES256_GCM,data:ksI=,iv:FwkJnkhuxJ+3YN25vCe7s4/6rZjVbX+TcV7gOh9mMdA=,tag:CRP6dOFnoSrMkZJSgjQvhQ==,type:str]
-        image: ENC[AES256_GCM,data:J63qYSkOYsZ1fvzK7wLl/Xt6zuPgRWAyc1iOQK1vD23wBFLNVM03gQFgGfOvNyEt,iv:toJzqfXHY2S8OOXfkq/IP5nDrUfp/aIW3r/4kDv9NWw=,tag:n6OLMkp2xnebQmmwZRselA==,type:str]
+                - ENC[AES256_GCM,data:hYz0evPqctFV,iv:paUHvLBvdUoYDOq0ib4NXJ6onu5utk4nyOcPMP5rLMQ=,tag:4uAD51QFl/DFjzgRUNtHMQ==,type:str]
+                - ENC[AES256_GCM,data:jc67CkzF7KZOtd2xWz2/eSk8ZULdEWfSmG88IASksYkSynTOrAzlWf5YLWFl1HSwKax732cVkYALTom38ros92Xr8ghQYmdSzxU=,iv:ldoXZ7uE402X1Q6pGOcztyyXCNgvAp70cjHXfN3AcVk=,tag:URH3O481iZ9edtVCJ7xOug==,type:str]
+            timeout: ENC[AES256_GCM,data:/hM=,iv:2uLWpZxO84goI2ucUTfUtw7bMoieyuhKAJ9XkPpXm/U=,tag:dgaW5WkPKoALk+D3K5Jj7A==,type:str]
+        image: ENC[AES256_GCM,data:5HPkc8RFZlGMCQIpv64BbkaNGegLDJl8ho9KyvER2KSuaZqcgQ1aOw+t1reY0jCw,iv:0AE7HIo+CSzJ6LpnnANW5oZy4vjtrj6kj7SHctvNirE=,tag:pl6rpTiaGpI1Jp01CnFcqQ==,type:str]
         labels:
-            traefik.enable: ENC[AES256_GCM,data:iB/NkA==,iv:HJEWKLqfDPsECqeJAYiuw+CyrCL8qT5Hfg4euIafPAM=,tag:dkUGj2oGZfU1KZTmABmd1A==,type:str]
-            traefik.http.middlewares.oauth2-forward-auth.forwardauth.address: ENC[AES256_GCM,data:OiVD6T7fzCOrd/6RyLriG2DCt7cBgckqcHtE5OMOPpGI,iv:ATs/mIscBSQI942Ml/Mftb7ocBu9t1l9axQIYPxDUhI=,tag:P4BuUELBRjlvh3FcTTTRIQ==,type:str]
-            traefik.http.middlewares.oauth2-forward-auth.forwardauth.authResponseHeaders: ENC[AES256_GCM,data:A2v5maPPykCgS1RMkOkKVvcuMvQlMKsAOhvmxIyNU5cJganiDzX1dRyXhIxROevguU3wXQp1TNSiQBAJVAPUpshj1UYB9nFlkbs=,iv:wOkFgpyOb2wymhcN1OpgcluBcYHogFJKrL2DkZMYL4E=,tag:JFmE/KUHw5Bglf5wZrSgZg==,type:str]
-            traefik.http.middlewares.oauth2-forward-auth.forwardauth.trustForwardHeader: ENC[AES256_GCM,data:JcsouA==,iv:QvaptEPN6PyhR5ngALSY/4sjtOeRCtmkxBaKsWucAic=,tag:VnJVcU3VfZ5PProcu5SaWQ==,type:str]
-            traefik.http.middlewares.oauth2-login.errors.query: ENC[AES256_GCM,data:CiW/1tHbT9m0s/xO30Trlv7Da6KwB2o0,iv:wOVjelHVBftIGQby1Ufg8E39oWGrjBAuAUW67lp/Ehk=,tag:LiuXe4kyBLUtsXeBQ9msmg==,type:str]
-            traefik.http.middlewares.oauth2-login.errors.service: ENC[AES256_GCM,data:0+DkyyuwkPcA97j54TiUFRUgmA==,iv:f+acI4mtPUagH6cPe3fYhtphp9vZLOlQ++4KZ2BrMTI=,tag:oiHsX2bQOtsHqHqGOwXqEg==,type:str]
-            traefik.http.middlewares.oauth2-login.errors.status: ENC[AES256_GCM,data:qmRSmD+4RQ==,iv:u9vd/zJaZ6KjMvjN6vhp9eZHw4MjFNN/8FLGMhkUAyU=,tag:8IV2jL7jJhw+8QaV/kWxfQ==,type:str]
-            traefik.http.routers.oauth2-proxy-http.entrypoints: ENC[AES256_GCM,data:aQlL,iv:7P8L1rO60K25f8l6SXGoFQqKfa73xk39XpGMuZzSrFk=,tag:Lz86/Z4ig1ghc53Z+bj44w==,type:str]
-            traefik.http.routers.oauth2-proxy-http.middlewares: ENC[AES256_GCM,data:nIeRo5yRhhjpi5WuoHV85p5+8NKW0vrdTaBBeZSg0ECPvomyuSSK5mhqtJSX,iv:JV2c/PvcMJkxeaj4Cp33a0LHiDpNRDcyYE2mt5yy34A=,tag:vPqZ4kfRgYC24sB98FG9AA==,type:str]
-            traefik.http.routers.oauth2-proxy-http.rule: ENC[AES256_GCM,data:QSjah/s/zfQDXtId1Hl+iwNgkJcALJw8LZyjAQ3RhR46wn4agjc=,iv:/IVvTdOMsZ4rjLfs88YzpUX2udeirCIrWd1fZauFYWY=,tag:fM47uTOnyr1ULymXxSXomQ==,type:str]
-            traefik.http.routers.oauth2-proxy-http.service: ENC[AES256_GCM,data:bQDKiFJnlGF13ouS,iv:U+M25Tlyw3b6ZKOvNxxswMWroxSEfpJYYbbc19T7tXU=,tag:cIDMZhkcu47WmujN2KvvtA==,type:str]
-            traefik.http.routers.oauth2-proxy.entrypoints: ENC[AES256_GCM,data:J/ZtdDQ9iPUy,iv:ocSIXNLTKyO/strU5pJp3P+24T9DTmpsuxn99ZtkmLs=,tag:RXID4Uid29mlTdWvnTwhiQ==,type:str]
-            traefik.http.routers.oauth2-proxy.middlewares: ENC[AES256_GCM,data:CzuUiyMWcEtwaEjStVUWxxggVaA=,iv:zz980ND7Xa2Nzgwgo6iYq04Y5dEZwmwZfWmhYwszWj4=,tag:R5p0zUPiWcuYyU8pgN6GYw==,type:str]
-            traefik.http.routers.oauth2-proxy.rule: ENC[AES256_GCM,data:y9vBJeZQPgzkAv4mXuIAGNDHW/kamPsYr1KqYUqRLL7WiDtV3Cs=,iv:ufSpjv2Iq/LDYDgntokYhcNBtLvcgvicbIn+WuS0gbA=,tag:T/cHvaBfSaNrWXGlFZzRxA==,type:str]
-            traefik.http.routers.oauth2-proxy.service: ENC[AES256_GCM,data:dwd1PQAe2I3UVm65,iv:95UeEfxfpGrs8arWJB/+S0Af8IQA2uGTpiV1c113w10=,tag:4DB1dkS9qy8g4QRYFXZmug==,type:str]
-            traefik.http.routers.oauth2-proxy.tls.certresolver: ENC[AES256_GCM,data:G/7lCMupFATApg==,iv:txO75Xwy/5Mc+k0ym8BR5F9UVqIiX0MnK/xpB5IeOh0=,tag:N/UCB/GXfpq0xebHEtuHsQ==,type:str]
-            traefik.http.services.oauth2-proxy.loadbalancer.server.port: ENC[AES256_GCM,data:JjcTcQ==,iv:ypg2Dtu1lMKKXBuF9gV3AvfeN0Zh8xa0FRNoEI5mu0o=,tag:Y5sksLKXcvtWkAeIL+f/rA==,type:str]
+            traefik.enable: ENC[AES256_GCM,data:OFplEw==,iv:vk1YKt1ooWw0hWaolWSvcycdqEcvYfy6SmMzT6VsMrQ=,tag:Qb+5ajxm2qE5ex7QtCnRKw==,type:str]
+            traefik.http.middlewares.oauth2-forward-auth.forwardauth.address: ENC[AES256_GCM,data:mrcc6M7Lv6ad71+4Ukv/WXJkcayxUCH/5u1C5vEmlUk0,iv:eRkbfBt0N+5X7eooGlOVWUGrY7xEnmNnsN3zNQBJNtA=,tag:nmAdmxGt7omtk2qcFafz4A==,type:str]
+            traefik.http.middlewares.oauth2-forward-auth.forwardauth.authResponseHeaders: ENC[AES256_GCM,data:1Y/CL555ebGS4MTfOP9roNevGr63R14dUmi9ueYhPyTY7FztarjwHhLc8LTegL7imm84MvdkTqzUmu/i/g+laOLtPfo3OJqQoi8=,iv:yJN32VOjQOrGuWhO1iUrplJxLsxwZ7xABLv39uPV1bY=,tag:Bv0hA3b4AGkeFD8StyHMtg==,type:str]
+            traefik.http.middlewares.oauth2-forward-auth.forwardauth.trustForwardHeader: ENC[AES256_GCM,data:6lcgVA==,iv:omw3R/93EQUdI8aC4G6nb2wL9zvqdFAmgwczTR7s1cE=,tag:MSpAadlDBSsLj9UupWFaHw==,type:str]
+            traefik.http.middlewares.oauth2-login.errors.query: ENC[AES256_GCM,data:ThgQASvZbWCkMkjS0ea7sqRQNvLD2C4K,iv:PKn5AW+6Q6rKZEWwP1wdq+ZcrHJmM7hbNy5ZyAMU7Ck=,tag:cc+RumgJQwsmNValN/8Bwg==,type:str]
+            traefik.http.middlewares.oauth2-login.errors.service: ENC[AES256_GCM,data:ko83c98Zx/Z7HM7wo8N4hQvFbg==,iv:/frw5usrZtAI2x6vQ4DfRUMmDzUen2F+1nDHNcn46wI=,tag:diVVwYapRW2LIeIXGM2P7w==,type:str]
+            traefik.http.middlewares.oauth2-login.errors.status: ENC[AES256_GCM,data:PbOJ2rqSuA==,iv:71IznmfZa14AxRe+GQWLqS1QZoGh98inS2d4YYEaMb8=,tag:/FYmnPapnY7dpTnRqv0ziA==,type:str]
+            traefik.http.routers.oauth2-proxy-http.entrypoints: ENC[AES256_GCM,data:D/d4,iv:CYdbuGp2+i5KhK0A9fg7Fy/AwYc+XSZ7DgU6mgsD3RM=,tag:Zsa2U2wCaubWzbj/4rfUxQ==,type:str]
+            traefik.http.routers.oauth2-proxy-http.middlewares: ENC[AES256_GCM,data:dFfCilwUoepy8NhDxOjY1bbjKgmCiAVaUuGWzBgeDgHtYuJ6VAE7iowAs9Vn,iv:AhBDWcMWWeRf0SCyPZqKT3O9lTXGsCyucMZCO8YB7RQ=,tag:sPlUdhUSoD/mmY2mo7UWkw==,type:str]
+            traefik.http.routers.oauth2-proxy-http.rule: ENC[AES256_GCM,data:2K4+zCuU0Uj5xdywaTblQGlrfYjID7ynHaD89/ZWEQHNvZIhDMI=,iv:34FuRb1msirZ4IFHFJQtjxiMh2EBVv/CqVfeBLh4z/E=,tag:ZmS8B2HX0a+nSHxOy0W7+A==,type:str]
+            traefik.http.routers.oauth2-proxy-http.service: ENC[AES256_GCM,data:Kc4g25MIUAwSJnlb,iv:2S+gCdyV2zgXGHWFFkv/ct7dqM33iNAcN0DGgDouu7M=,tag:e+lFhBIggBwANwootp5fSQ==,type:str]
+            traefik.http.routers.oauth2-proxy.entrypoints: ENC[AES256_GCM,data:qCBgYhIEYq/e,iv:aAgbPHarJMno37IWtvqRwOHv70jc6+DVgdaE5oyP+pw=,tag:VI0hRKVVFDHhRllfoX3GoA==,type:str]
+            traefik.http.routers.oauth2-proxy.middlewares: ENC[AES256_GCM,data:qDUR5J7nGBBv3hhj6KdCRIKPl4o=,iv:dH6UCGg25bkjK5T5P4yAzLfBZPOPBow8Lo8NrO8EVDM=,tag:Hb8y/kbziVeO4jdd/YwJEA==,type:str]
+            traefik.http.routers.oauth2-proxy.rule: ENC[AES256_GCM,data:grxbQ3dsBGwKoL9seHjasHaAm+3W4yLD+hqWXEI0eO9OC9RDI74=,iv:jNWGiRJqiWIujfoc29v3wI31yBzupBu6cg5CuUydguI=,tag:Aqs9nIFDfReXLuVL+EYbpg==,type:str]
+            traefik.http.routers.oauth2-proxy.service: ENC[AES256_GCM,data:GQImq9Phq2T/IMpB,iv:C+4oOzN8VKeQNAueTmNE0t6ijaL+E5WPIECKAF9vCNs=,tag:+hwxFUkB85AQgvDFUAyaDg==,type:str]
+            traefik.http.routers.oauth2-proxy.tls.certresolver: ENC[AES256_GCM,data:sBIBViksUrbWPQ==,iv:w1gsXmxLZkNaEN4y7NwgdMtKfZahEOJSkcgXadqvQ6Q=,tag:JJZ5a4DdmXaytff7Kxiw2A==,type:str]
+            traefik.http.services.oauth2-proxy.loadbalancer.server.port: ENC[AES256_GCM,data:qzBJvg==,iv:OrqF0vKAVW0xWmPze5lHMbvWEM+7+yFGcAdv09Gbevw=,tag:0Pz80WMTAIWosuBMennsDQ==,type:str]
         ports:
-            - ENC[AES256_GCM,data:j+baA4rfCq18s/UVkw/dg+fUxg==,iv:lvVtomKM0iZL+kaBXAhtg9qFP1IL6P3OefbXn+wiqc8=,tag:G8JlKz67hLU75JWt6rHfBg==,type:str]
-        restart: ENC[AES256_GCM,data:psWWUj4W4Jiau60Bz8Y=,iv:iXPW0GQQ0sNgHZecoPjJ3OFheo8tfbfASalQ3wWiGUk=,tag:eJZIKXiB83X2q0qhbzbJrg==,type:str]
+            - ENC[AES256_GCM,data:LxexMcrjKPmD08coQ9g2mhxM0A==,iv:GFzC6eg3087d19RQDX+68yuYc7TOBOQ/WpWjPzdHgsY=,tag:4LpxlTsr7rpObIV/lc5U7w==,type:str]
+        restart: ENC[AES256_GCM,data:qhK8m7J5EJxoZfkXSqQ=,iv:5evRlP5pMjYMWw/NHyc8Ul09lno9tpyi+r+HwF3WByo=,tag:TRu8cbqJ1Fd5EX7HMRtL9Q==,type:str]
 sops:
     age:
         - enc: |
             -----BEGIN AGE ENCRYPTED FILE-----
-            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBFaEtTdmdLTFNoTGpLaDVT
-            TlA1RGxlMGNvODJsNjNxU0kvUlFCRE9QYW1RCjhaU3FSUjFGN0tQR2JVQlpuVTB5
-            Q3RjUUVud2hrWFc4N25RYzBRN0hmYzQKLS0tIFNzaXM5WXd6QXVQQlk3VC9YbFFE
-            MTc2ZU8vMW9KcnhtbDhaUGQxVGY1dDAKxp7w+zdyLXpeVQ+Km46TqG/zXWGPTWew
-            cHoUHwtRbRi7tdj2LELOJSbySGoTav/RtiJQKJTA641vM1B6AyE0nw==
+            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBHU0J2SGp6Y3M0ZEJGNG5V
+            UU8zdjNGZHNDSGw2Z3lFOWc0clMwZ3JuTWxFClc4T1hoOFBLZ2ZMNDd0d1lZY01W
+            c0pOZ1RNejNmeXFsbm5rNzdDdUFEU2cKLS0tIDJJUGRkNllMNnRqQy9WdFA2Z0dQ
+            aFdsWnFyOUlJODRSZ0JQSTZZT1RPQm8K+D/BXsoAZpd6h2IFt2rYun202H7vzr+8
+            2ffuknl2J9FGo1DNXjl10Q/gdG2TkFO0yycJzOG1lKCcq/rrfQdIbg==
             -----END AGE ENCRYPTED FILE-----
           recipient: age1heqmzgcj5d2fe7c96leq9kqm6vc4mqhpn94d685q3px9utzlq98q2tv268
-    lastmodified: "2026-07-23T23:16:23Z"
-    mac: ENC[AES256_GCM,data:G3k6tlUV/FjfJikfoCPjiLC5q7nyzhbyq4uqv0DD9S0M+lom2rCXXmoFWD8U1m86OVTG7ZwLjgPYpLVCRCjCnklzmj/Vj0HkWHERyo1uhHutDoYZno9NG2v7ycdpV4i+bb1N+WPD1UwhJv8Ycp/o/tbU2JjVsPbXned2kDoFESg=,iv:tOoyEF20gzU2XWrePPvf8vK5i6rYqR30IB6eoicPPOg=,tag:TE4IInDPg1AQRtE/ZuafPA==,type:str]
+    lastmodified: "2026-07-24T00:43:07Z"
+    mac: ENC[AES256_GCM,data:j2LENrfdew7MRq97JCszzz+Bw+wuBLbvpcGnqVeyibqBfbwZlK2TnWjh7dUE5c5J7Ta350sd6vN5hqsZ0/+gp3qem2J7iUzqOzU2/oowwOVe/QRiub43RGDb3TIjg+AnsOt9o3X9Gdp4viO3OTsnHOZeFUN1l+M6WkhvMCrIdYA=,iv:Gfd4IYTTGc8irEelRxqVjaQO3GO+Mi6QbevQK/KzOP0=,tag:i8RaE387RvZr9SnMIx47pw==,type:str]
     unencrypted_suffix: _unencrypted
     version: 3.13.2
